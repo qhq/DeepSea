@@ -4,7 +4,7 @@
     "customSteps":[
         {
             "action": "move",
-            "source": ".*nyx.*\\.bin",
+            "source": "nyx.bin",
             "destination": "bootloader/sys/nyx.bin"
         }
     ]
