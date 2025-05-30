@@ -5,12 +5,12 @@
             "active": true,
             "modules": [
                 "atmosphere", "hekate", "sigpatches",
-                "TegraExplorer", "NX-Shell",
-                "nyx_chs"
+                "TegraExplorer", "NX-Shell-zdm",
+                "nyx_chs-zdm"
             ]
         },
         "qhq":{
-            "active": true,
+            "active": false,
             "modules": [
                 "atmosphere", "hekate", "sigpatches",
                 "TegraExplorer", "NX-Shell",
