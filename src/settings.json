@@ -6,7 +6,7 @@
             "modules": [
                 "atmosphere", "hekate", "sigpatches",
                 "TegraExplorer", "NX-Shell-zdm",
-                "nyx_chs-zdm"
+                "nyx_chs"
             ]
         },
         "qhq":{
