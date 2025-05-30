@@ -1,10 +1,10 @@
 {
-    "repo":"qhq/SwitchApp",
-    "assetRegex":[".*nyx.*\\.zip"],
+    "repo":"easyworld/hekate",
+    "assetRegex":[".*Nyx.*\\.zip"],
     "customSteps":[
         {
             "action": "extract",
-            "source": ".*nyx.*\\.zip"
+            "source": ".*Nyx.*\\.zip"
         }
     ]
 }
