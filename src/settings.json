@@ -21,7 +21,7 @@
             ]
         },
         "qhq2":{
-            "active": true,
+            "active": false,
             "modules": [
                 "atmosphere", "hekate", "sigpatches",
                 "TegraExplorer", "NX-Shell-zdm",
