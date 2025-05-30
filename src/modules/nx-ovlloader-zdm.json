@@ -1,0 +1,22 @@
+{
+    "repo": "zdm65477730/nx-ovlloader",
+    "assetRegex": [
+        ".*nx-ovlloader.*\\.zip"
+    ],
+    "customSteps": [
+        {
+            "action": "extract",
+            "source": ".*nx-ovlloader.*\\.zip"
+        },
+        {
+            "action": "createDir",
+            "source": "atmosphere/contents/420000000007E51A_tesla"
+        },
+        {
+            "action": "replaceText",
+            "source": "config/tesla/config.ini",
+            "target": "key_combo=.*?$",
+            "replacement": "key_combo=L+DDOWN+PLUS"
+        }
+    ]
+}

@@ -1,6 +1,5 @@
 {
-    "repo":"rashevskyv/dbi",
-    "bak":"qhq/SwitchApp",
+    "repo":"qhq/SwitchApp",
     "assetRegex":["dbi.config", "DBI.nro"],
     "customSteps":[
         {

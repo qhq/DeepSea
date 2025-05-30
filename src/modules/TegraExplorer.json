@@ -1,5 +1,6 @@
 {
-    "repo":"suchmememanyskill/TegraExplorer",
+    "bak":"suchmememanyskill/TegraExplorer",
+    "repo":"zdm65477730/TegraExplorer",
     "assetRegex":[".*\\.bin"],
     "customSteps":[
         {

@@ -1,0 +1,10 @@
+{
+    "repo":"zdm65477730/Status-Monitor-Overlay",
+    "assetRegex":[".*StatusMonitor.*\\.zip"],
+    "customSteps":[
+        {
+            "action": "extract",
+            "source": ".*StatusMonitor.*\\.zip"
+        }
+    ]
+}

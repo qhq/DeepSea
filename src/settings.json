@@ -20,6 +20,17 @@
                 "SimpleModManager","deepseaToolbox"
             ]
         },
+        "qhq2":{
+            "active": true,
+            "modules": [
+                "atmosphere", "hekate", "sigpatches",
+                "TegraExplorer", "NX-Shell-zdm",
+                "nyx_chs-zdm", "sys-botbase", "emuiibo", "edizon-zdm", "dbi",
+                "nx-ovlloader-zdm", "Tesla-Menu-zdm", "ovl-sysmodules-zdm", "Status-Monitor-Overlay-zdm",
+                "jksv", "breeze", "Zing",
+                "SimpleModManager","deepseaToolbox"
+            ]
+        },
         "test":{
             "active": false,
             "modules": [

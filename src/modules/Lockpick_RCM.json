@@ -1,5 +1,6 @@
 {
-    "repo":"Decscots/Lockpick_RCM",
+    "bak":"Decscots/Lockpick_RCM",
+    "repo":"zdm65477730/Lockpick_RCMDecScots",
     "assetRegex":[".*\\.bin"],
     "customSteps":[
         {

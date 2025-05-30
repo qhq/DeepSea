@@ -1,0 +1,14 @@
+{
+    "repo":"zdm65477730/ovl-sysmodules",
+    "assetRegex":[".*ovl-sysmodules.*\\.zip"],
+    "customSteps":[
+        {
+            "action": "createDir",
+            "source": "switch/.overlays"
+        },
+        {
+            "action": "extract",
+            "source": ".*ovl-sysmodules.*\\.zip"
+        }
+    ]
+}

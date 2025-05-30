@@ -1,0 +1,10 @@
+{
+    "repo":"zdm65477730/EdiZon-Overlay",
+    "assetRegex":[".*EdiZon.*\\.zip"],
+    "customSteps":[
+        {
+            "action": "extract",
+            "source": ".*EdiZon.*\\.zip"
+        }
+    ]
+}

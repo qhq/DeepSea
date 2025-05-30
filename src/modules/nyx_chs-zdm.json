@@ -1,0 +1,11 @@
+{
+    "repo":"zdm65477730/hekate",
+    "assetRegex":[".*nyx.*\\.bin"],
+    "customSteps":[
+        {
+            "action": "move",
+            "source": ".*nyx.*\\.bin",
+            "destination": "bootloader/sys/nyx.bin"
+        }
+    ]
+}

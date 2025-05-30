@@ -1,0 +1,10 @@
+{
+    "repo":"zdm65477730/Tesla-Menu",
+    "assetRegex":[".*Tesla-Menu.*\\.zip"],
+    "customSteps":[
+        {
+            "action": "extract",
+            "source": ".*Tesla-Menu.*\\.zip"
+        }
+    ]
+}
