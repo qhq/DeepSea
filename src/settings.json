@@ -20,8 +20,8 @@
                 "SimpleModManager","deepseaToolbox"
             ]
         },
-        "qhq2":{
-            "active": false,
+        "zdm":{
+            "active": true,
             "modules": [
                 "atmosphere", "hekate", "sigpatches",
                 "TegraExplorer", "NX-Shell-zdm",
