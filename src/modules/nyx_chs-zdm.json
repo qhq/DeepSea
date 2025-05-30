@@ -3,6 +3,10 @@
     "assetRegex":[".*nyx.*\\.bin"],
     "customSteps":[
         {
+            "action": "createDir",
+            "source": "bootloader/sys"
+        },
+        {
             "action": "move",
             "source": "nyx.bin",
             "destination": "bootloader/sys/nyx.bin"
