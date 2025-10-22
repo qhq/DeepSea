@@ -4,6 +4,10 @@
     "assetRegex":["JKSV.nro"],
     "customSteps":[
         {
+            "action": "createDir",
+            "source": "switch/JKSV"
+        },
+        {
             "action": "move",
             "source": "JKSV.nro",
             "destination": "switch/JKSV/JKSV.nro"
