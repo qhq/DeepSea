@@ -1,0 +1,10 @@
+{
+    "repo":"zdm65477730/Zing",
+    "assetRegex":[".*Zing.*\\.zip"],
+    "customSteps":[
+        {
+            "action": "extract",
+            "source": ".*Zing.*\\.zip"
+        }
+    ]
+}
