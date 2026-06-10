@@ -44,35 +44,31 @@ class GH():
 
         downloadedFiles = []
 
-        ghBody = ghLatestRelease.body 
         ghBody = ghLatestRelease.body
-        # 添加检查：如果 body 为 None，设置为空字符串
-        if ghBody is None:
-            ghBody = ""
-        
+
         for pattern in moduleJson["assetRegex"]:
-          matched_asset = None
-          for asset in ghLatestRelease.get_assets():
-              if re.search(pattern, asset.name):
-                  matched_asset = asset
-                  url = asset.browser_download_url
-                  updated_at = matched_asset.updated_at
-                  updated_at_utc8 = updated_at + datetime.timedelta(hours=8)
-                  updated_at_utc8_str = updated_at_utc8.strftime("%Y-%m-%d %H:%M:%S")
-                  version = None
-                  # 尝试从 Release body 中提取版本号
-                  if ghBody:  # 只有在 body 不为空时才尝试正则匹配
-                      pattern_version = re.compile(rf'{matched_asset.name.split(".")[0]}\|(.*?)\|')
-                      match = re.search(pattern_version, ghBody)
-                      if match:
-                          version = match.group(1)
-                  # 如果没有从 body 中提取到版本，使用 tag 名称
-                  if version is None:
-                      version = ghLatestTag.name
-                  # print(version)
-                  info = {"tag":version,"last_modified":updated_at_utc8_str,"url": url}
-                  print(info)
-                  break
+            matched_asset = None
+            for asset in ghLatestRelease.get_assets():
+                if re.search(pattern, asset.name):
+                    matched_asset = asset
+                    url = asset.browser_download_url
+                    updated_at = matched_asset.updated_at
+                    updated_at_utc8 = updated_at + datetime.timedelta(hours=8)
+                    updated_at_utc8_str = updated_at_utc8.strftime("%Y-%m-%d %H:%M:%S")
+                    version = None
+                    # 尝试从 Release body 中提取版本号
+                    if ghBody:  # 只有在 body 不为空时才尝试正则匹配
+                        pattern_version = re.compile(rf'{matched_asset.name.split(".")[0]}\|(.*?)\|')
+                        match = re.search(pattern_version, ghBody)
+                        if match:
+                            version = match.group(1)
+                    # 如果没有从 body 中提取到版本，使用 tag 名称
+                    if version is None:
+                        version = ghLatestTag.name
+                    # print(version)
+                    info = {"tag":version,"last_modified":updated_at_utc8_str,"url": url}
+                    print(info)
+                    break
             if matched_asset is None:
                 print("未找到文件: ", pattern)
                 return
