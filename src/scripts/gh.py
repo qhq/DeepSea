@@ -18,6 +18,7 @@ class GH():
 
     def downloadLatestRelease(self, moduleJson, downloadPath):
         try:
+            print(downloadPath)
             ghRepo = self.github.get_repo(moduleJson["repo"])
         except:
             print("无法获取: ", moduleJson["repo"])
