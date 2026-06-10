@@ -4,7 +4,7 @@
         "clean":{
             "active": true,
             "modules": [
-                "atmosphere","hekate", "sigpatches",
+                "atmosphere","atmosphere-with-sigpatch","hekate", "sigpatches",
                 "TegraExplorer", "NX-Shell-zdm",
                 "nyx_chs-zdm"
             ]
@@ -23,7 +23,7 @@
         "zdm":{
             "active": true,
             "modules": [
-                "atmosphere", "hekate", "sigpatches",
+                "atmosphere","atmosphere-with-sigpatch", "hekate", "sigpatches",
                 "TegraExplorer", "NX-Shell-zdm",
                 "nyx_chs-zdm", "sys-botbase", "emuiibo", "edizon-zdm", "dbi",
                 "nx-ovlloader-zdm", "Tesla-Menu-zdm", "ovl-sysmodules-zdm", "Status-Monitor-Overlay-zdm",
@@ -34,7 +34,7 @@
         "test":{
             "active": false,
             "modules": [
-                "edizon", "dbi", "ftpd","atmosphere-with-sigpatch"
+                "edizon", "dbi", "ftpd"
             ]
         }
     }
