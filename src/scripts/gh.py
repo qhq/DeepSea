@@ -33,8 +33,8 @@ class GH():
         # now = self.formatGMTime(timestamp)
         # print("last modified: " + now)
         
-         info = {"tag":ghLatestTag.name,"last_modified":now,"url": ghLatestTag.zipball_url}
-         print(info)
+        info = {"tag":ghLatestTag.name,"last_modified":now,"url": ghLatestTag.zipball_url}
+        print(info)
         
         releases = ghRepo.get_releases()
         if releases.totalCount == 0:
