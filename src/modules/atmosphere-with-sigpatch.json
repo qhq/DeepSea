@@ -1,6 +1,6 @@
 {
     "repo":"zdm65477730/Atmosphere",
-    "assetRegex":["fusee.bin","atmosphere.*\\.zip"],
+    "assetRegex":["fusee.bin",".*atmosphere.*\\.zip"],
     "customSteps":[
         {
             "action": "extract",
