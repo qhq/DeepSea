@@ -30,7 +30,7 @@ class GH():
         # print( "raw: " + ghLatestTag.raw_data)
         # commit = ghLatestTag.commit # Commit(sha="7e700a25a6cb378d5c04d7cb3d616c14546d1c6b")
         # timestamp =  commit.stats.last_modified # # Fri, 23 Oct 2020 04:21:50 GMT
-        # now = self.formatGMTime(timestamp)
+        now = self.formatGMTime(timestamp)
         # print("last modified: " + now)
         
         info = {"tag":ghLatestTag.name,"last_modified":now,"url": ghLatestTag.zipball_url}
