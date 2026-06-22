@@ -25,7 +25,7 @@
             "modules": [
                 "atmosphere","atmosphere-with-sigpatch", "hekate", "sigpatches",
                 "TegraExplorer", "NX-Shell-zdm",
-                "nyx_chs-zdm", "sys-botbase", "emuiibo", "edizon-zdm", "dbi",
+                "nyx_chs-zdm", "sys-botbase", "emuiibo-zdm", "edizon-zdm", "dbi",
                 "nx-ovlloader-zdm", "Tesla-Menu-zdm", "ovl-sysmodules-zdm", "Status-Monitor-Overlay-zdm",
                 "jksv", "breeze", "Zing-zdm",
                 "SimpleModManager","deepseaToolbox"
