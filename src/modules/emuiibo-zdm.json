@@ -1,0 +1,19 @@
+{
+    "bak":"XorTroll/emuiibo",
+    "repo":"zdm65477730/emuiibo",
+    "assetRegex":[".*emuiibo.*\\.zip"],
+    "customSteps":[
+        {
+            "action": "extract",
+            "source": ".*emuiibo.*\\.zip"
+        },
+        {
+            "action": "createDir",
+            "source": "atmosphere/contents/0100000000000352_emuiibo"
+        },
+        {
+            "action": "delete",
+            "source": "atmosphere/contents/0100000000000352/flags/boot2.flag"
+        }
+    ]
+}
