@@ -13,7 +13,7 @@
             "active": false,
             "modules": [
                 "atmosphere","atmosphere-with-sigpatch", "hekate", "sigpatches",
-                "TegraExplorer", "NX-Shell",
+                "TegraExplorer", "NX-Shell", "sys-patch",
                 "nyx_chs", "sys-botbase", "emuiibo", "edizon", "dbi",
                 "nx-ovlloader", "Tesla-Menu", "ovl-sysmodules", "Status-Monitor-Overlay",
                 "jksv", "breeze", "Zing",
@@ -24,7 +24,7 @@
             "active": true,
             "modules": [
                 "atmosphere","atmosphere-with-sigpatch", "hekate", "sigpatches",
-                "TegraExplorer", "NX-Shell-zdm",
+                "TegraExplorer", "NX-Shell-zdm", "sys-patch",
                 "nyx_chs-zdm", "sys-botbase", "emuiibo-zdm", "edizon-zdm", "dbi",
                 "nx-ovlloader-zdm", "Tesla-Menu-zdm", "ovl-sysmodules-zdm", "Status-Monitor-Overlay-zdm",
                 "jksv", "breeze", "Zing-zdm",
