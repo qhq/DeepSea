@@ -4,7 +4,7 @@
         "clean":{
             "active": true,
             "modules": [
-                "atmosphere","hekate", "sigpatches",
+                "atmosphere","atmosphere-with-sigpatch", "hekate", "sigpatches",
                 "TegraExplorer", "NX-Shell-zdm",
                 "nyx_chs-zdm", "sys-patch"
             ]
@@ -23,7 +23,7 @@
         "zdm":{
             "active": true,
             "modules": [
-                "atmosphere","atmosphere-with-sigpatch", "hekate", "sigpatches",
+                "atmosphere","atmosphere-with-sigpatch-zdm", "hekate", "sigpatches",
                 "TegraExplorer", "NX-Shell-zdm", "sys-patch",
                 "nyx_chs-zdm", "sys-botbase", "emuiibo-zdm", "edizon-zdm", "dbi",
                 "nx-ovlloader-zdm", "Tesla-Menu-zdm", "ovl-sysmodules-zdm", "Status-Monitor-Overlay-zdm",
