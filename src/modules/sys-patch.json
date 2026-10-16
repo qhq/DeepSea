@@ -1,0 +1,23 @@
+{
+    "repo":"impeeza/sys-patch",
+    "assetRegex":[".*sys-patch.*\\.zip"],
+    "customSteps":[
+        {
+            "action": "extract",
+            "source": ".*sys-patch.*\\.zip"
+        },
+        {
+            "action": "delete",
+            "source": "atmosphere/contents/420000000000000B/flags/boot2.flag"
+        },
+        {
+            "action": "createDir",
+            "source": "atmosphere/contents/420000000000000B_sys-patch"
+        },
+        {
+            "action": "createToolboxJson",
+            "source": "atmosphere/contents/420000000000000B/",
+            "requires_reboot": false
+        }
+    ]
+}
