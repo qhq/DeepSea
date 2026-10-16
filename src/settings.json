@@ -4,9 +4,9 @@
         "clean":{
             "active": true,
             "modules": [
-                "atmosphere","atmosphere-with-sigpatch","hekate", "sigpatches",
+                "atmosphere","hekate", "sigpatches",
                 "TegraExplorer", "NX-Shell-zdm",
-                "nyx_chs-zdm"
+                "nyx_chs-zdm", "sys-patch"
             ]
         },
         "qhq":{
